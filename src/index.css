@@ -1,0 +1,30 @@
+.spinner-parent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  opacity: 0.8;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  width: 100%;
+}
+.spinner-border {
+  width: 60px;
+  height: 60px;
+}
+.page-title {
+  font-size: 30px;
+  color: rgba(0, 0, 0, 0.779);
+  font-weight: 600;
+}
+
+.card-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: left;
+  margin: 0;
+}

@@ -1,0 +1,73 @@
+.video-input-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 83vh;
+}
+
+.video-input-form {
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  height: auto;
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.name-label,
+.room-label {
+  font-size: 1.1rem;
+  color: #333;
+  margin-bottom: 8px;
+}
+
+.room-input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #9381ff;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  font-size: 1rem;
+  outline: none;
+  transition: border-color 0.3s;
+}
+
+.room-input:focus {
+  border-color: #b8b8ff;
+}
+
+.start-session-btn {
+  background-color: #9381ff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  cursor: pointer;
+  width: 100%;
+  transition: background-color 0.3s;
+}
+
+.start-session-btn:hover {
+  background-color: #b8b8ff;
+}
+
+@media (max-width: 768px) {
+  .video-input-form {
+    padding: 20px;
+  }
+
+  .name-label,
+  .room-label {
+    font-size: 1rem;
+  }
+
+  .start-session-btn {
+    font-size: 1rem;
+  }
+}

@@ -1,0 +1,109 @@
+.main {
+  padding: 20px;
+  height: 100vh;
+}
+.sidebar {
+  background-color: #9381ff;
+  border-radius: 5px;
+  box-shadow: 0 0 2px gray;
+  margin-right: 20px;
+  min-height: auto;
+  padding: 10px;
+}
+.content {
+  width: 100%;
+  height: 100%;
+}
+.header {
+  background-color: #b8b8ff;
+  border-radius: 5px;
+  box-shadow: 0 0 2px gray;
+  margin-bottom: 20px;
+  height: 5vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.body {
+  background-color: #f8f7ff;
+  border-radius: 5px;
+  box-shadow: 0 0 2px gray;
+  height: 85vh;
+  width: 100%;
+  padding: 15px;
+  overflow: scroll auto;
+}
+.menu {
+  margin-top: 100px;
+}
+
+.menu-item {
+  margin-top: 15px;
+}
+.menu-item p {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  font-size: 18px;
+  padding: 0%;
+  margin: 0%;
+}
+.menu-item i {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  font-size: 18px;
+  margin: 0 15px;
+  cursor: pointer;
+}
+.active-menu-item {
+  color: rgb(0, 0, 0) !important;
+  background-color: rgb(35, 35, 35);
+  padding: 5px 3px;
+  border-radius: 5px;
+}
+.act-icon {
+  margin-top: 3px;
+  margin-left: 10px;
+  font-size: 18px;
+  font-weight: 600;
+  cursor: pointer;
+  padding: 3px;
+  margin-right: 5px;
+}
+.head-icon {
+  font-size: 40px;
+  padding: 0%;
+  margin-left: 7px;
+}
+.roll {
+  color: #f8f7ff;
+  margin-left: 11px;
+  margin-top: -10px;
+}
+@media screen and (max-width: 768px) {
+  .menu {
+    padding: 0%;
+  }
+  .menu-item a {
+    padding-right: 0%;
+  }
+}
+.sidebar {
+  transition: width 0.3s ease;
+}
+
+.menu-item {
+  padding: 10px;
+  cursor: pointer;
+}
+
+.toggle-button {
+  padding-top: 0px;
+  background-color: #9381ff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
+  margin-left: 12px;
+  font-weight: 700;
+}
