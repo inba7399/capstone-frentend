@@ -120,13 +120,13 @@ export default function Room() {
           {myStream && (
             <div className="video-wrapper">
               <h5>My Stream</h5>
-              <ReactPlayer playing muted height="100%" width="100%" url={myStream} className="video-frame" />
+              <ReactPlayer playing muted height="100%" width="100%" url={myStream}  />
             </div>
           )}
           {remoteStream && (
             <div className="video-wrapper">
               <h5>Remote Stream</h5>
-              <ReactPlayer playing muted height="100%" width="100%" url={remoteStream} className="video-frame" />
+              <ReactPlayer playing  height="100%" width="100%" url={remoteStream} />
             </div>
           )}
         </div>
